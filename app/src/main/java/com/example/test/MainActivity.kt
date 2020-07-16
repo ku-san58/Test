@@ -14,12 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //今日の日付を取得
         fun getToday(): String {
             val date = Date()
             val format = SimpleDateFormat("yyyy年MM月dd日", Locale.getDefault())
             textView.text = format.toString()
             return format.format(date)
         }
+
         var hiduke = getToday()
         textView.text = hiduke
         textView.textSize = 20F
