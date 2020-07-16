@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="add_button">新規追加</string>
+    <string name="gomi_syurui">種類：</string>
+    <string name="back">戻る</string>
+    <string name="add_text">追加</string>
+</resources>
